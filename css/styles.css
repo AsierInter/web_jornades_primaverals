@@ -121,6 +121,7 @@ nav ul li:hover {
 .page-name {
     text-align: center;
     color: #F5ECD0;
+    font-size: 25px;
 }
 
 /* CARDS (INDEX_FAMILIES) */
@@ -140,9 +141,10 @@ nav ul li:hover {
     transition: 300ms;
 }
 
-.card:hover {
-
-}
+/* .card:hover {
+    background-color: #94BF97;
+    transition: background-color 0.5s;
+} */
 
 .card__content {
     flex-grow: 1;
@@ -159,13 +161,21 @@ nav ul li:hover {
 
 .card__title {
     justify-content: center;
-    background-color: grey;
+    color: #000000;
+    background-color: #94BF97;
     border-radius: 0 0 10px 10px;
     padding: 10px;
     display: block;
     text-align: center;
     text-decoration: none;
     margin-top: 10px;
+}
+
+.card__title:hover {
+    color:#fff;
+    transition: color 1s;
+    background-color: #3B331A;
+    transition: background-color 0.5s;
 }
 
 /* Footer */
