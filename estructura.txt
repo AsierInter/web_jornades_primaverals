@@ -1,0 +1,17 @@
+
+utilizar:
+
+headers
+footers
+mains
+articles/sections
+
+clases:
+
+card
+card__title
+card__leader
+card__material
+card__aforament
+card__description
+card__picture
