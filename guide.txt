@@ -1,0 +1,36 @@
+
+utilitzar:
+
+    headers
+    footers
+    mains
+    articles/sections
+
+clases:
+
+    card
+    card__title
+    card__leader
+    card__material
+    card__aforament
+    card__description
+    card__picture
+
+
+        <div class="taller">
+            <div class="ticket">
+                <div class="image">
+                    <img src="" alt="representative_image">
+                </div>
+                <div class="description">
+                    <h4>TALLER</h4>
+                    <ul style="list-style-type: none;">
+                        <li><b>Descripció</b>:</li>
+                        <li><b>Material</b>:</li>
+                        <li><b>Responsables</b>:</li>
+                        <li><b>Aforament</b>:</li>
+                        <li><b>Espai</b>:</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
