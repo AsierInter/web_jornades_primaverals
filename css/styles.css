@@ -50,7 +50,8 @@ nav ul li a {
 
 nav ul li:hover {
     background: #B7CEEB;
-    transition: background-color 0.75s;
+    border-radius: 5px;
+    transition: all 0.75s;
 }
 
 
@@ -94,7 +95,7 @@ nav ul li:hover {
 
 .description p {
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
 }
 
 /* CAIXETES */
@@ -103,7 +104,7 @@ nav ul li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 200px;
+    padding-bottom: 80px;
 }
 
 .content .course-container {
@@ -125,7 +126,7 @@ nav ul li:hover {
 }
 
 .course-container:hover {
-    background-color: rgb(99, 155, 79);
+    background-color: #639b4f;
     transform: scale(1.1);
 }
 
@@ -150,7 +151,7 @@ nav ul li:hover {
 }
 
 .cards__activitats {
-    padding: 20px 20px 210px 20px;
+    padding: 20px 20px 120px 20px;
     display: flex;
     margin: auto;
 }
@@ -161,7 +162,8 @@ nav ul li:hover {
 }
 
 .cards_down {
-    padding: 60px 20px 210px 20px;
+    width: 1200px;
+    padding: 0px 20px 120px 20px;
 }
 
 .card {
@@ -202,7 +204,7 @@ nav ul li:hover {
 
 .card__content .card__title {
     justify-content: center;
-    color: #F5ECD0;
+    color: #f5ecd0;
     background-color: #94BF97;
     border-radius: 0 0 10px 10px;
     padding: 10px;
@@ -211,11 +213,12 @@ nav ul li:hover {
     text-decoration: none;
     width: 100%;
     height: 100%;
+    transition: all 1s;
 }
 
 .card__title:hover {
-    background-color: rgb(99, 155, 79);
-    transition: background-color 0.5s;
+    background-color: #639b4f;
+    color: #dcc98e;
 }
 
 /* CONTACTE */
@@ -223,7 +226,7 @@ nav ul li:hover {
 .contact_content {
     display: flex;
     align-items: center;
-    padding: 30px 20px 200px 20px;
+    padding: 30px 20px 120px 20px;
 }
 
 .contact {
@@ -259,7 +262,7 @@ nav ul li:hover {
 /* HORARI */
 .timetable{
     align-items: center;
-    padding: 150px 0 200px 0;
+    padding: 150px 0 120px 0;
     display: flex;
     justify-content: center;
 }
@@ -286,7 +289,7 @@ nav ul li:hover {
     transform: scale(1.01);
     background-color: #f5fff6;
     border-radius: 15px 15px 15px;
-    box-shadow: 15px 15px 15px rgb(163, 191, 165);
+    box-shadow: 15px 15px 15px #a3bfa5;
 }
 
 .first_taller {
@@ -318,15 +321,37 @@ nav ul li:hover {
 
 }
 
+
+/* FORMULARI PER TRIAR ELS TALLERS */
+
+.page_text {
+    padding: 100px 0 120px 0;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    color: #5a83b4;
+}
+
+.page_text a{
+    color: #8eb3e1;
+}
+
+.page_text a:hover{
+    color: #859ebc;
+    transition: 1s;
+}
+
+
 /* FOOTER */
 .container-footer {
     width: 100px;
-    height: 200px;
+    height: 250px;
     padding: 40px 0;
-    margin-top: 40px;
-    position: fixed;
+    margin-top: 20px;
     bottom: 0;
     width: 100%;
+    border-top: solid #000000;
+    background: linear-gradient(#a6bfa3, #79987c);
 }
 
 .container-footer footer {
@@ -357,15 +382,18 @@ a {
 }
 
 .github-icon:hover {
-    background-color: grey;
+    background-color: #969494;
+    transition: all 0.75s;
 }
 
 .mail-icon:hover {
-    background-color: rgb(235, 74, 40);
+    background-color: #eb4a28;
+    transition: all 0.75s;
 }
 
 .web-icon:hover {
     background-color: #4d93e9;
+    transition: all 0.75s;
 }
 
 .container-footer footer hr {
@@ -380,4 +408,3 @@ a {
     color: black;
     font-weight: bold;
 }
-
